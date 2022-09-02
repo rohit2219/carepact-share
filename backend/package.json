@@ -1,0 +1,55 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend of e-commerce",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "backend",
+    "api"
+  ],
+  "author": "jishnu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chalk": "^3.0.0",
+    "chokidar": "^3.5.2",
+    "colors": "^1.4.0",
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^4.16.0",
+    "csv-reader": "^1.0.8",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-validator": "^6.10.0",
+    "formidable": "^1.2.2",
+    "ip": "^1.1.5",
+    "is-online": "^9.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "node-base64-image": "^2.0.3",
+    "node-fetch": "^3.0.0",
+    "node-schedule": "^2.0.0",
+    "nodejs-base64": "^2.0.0",
+    "pdfkit": "^0.12.1",
+    "python-shell": "^3.0.0",
+    "rimraf": "^3.0.2",
+    "socket.io": "^4.1.2",
+    "xlsx": "^0.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "type": "module"
+}
